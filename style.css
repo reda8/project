@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    color: #555;
+    font-family: 'Arial', sans-serif;
+    font-size: 18px;
+    text-rendering: optimizeLegibility;
+}
+
+.row{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.section-form{
+    background-color: #a0f4f4;
+    height: 100%;
+    padding: 10px;
+}
+.contact-form {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px 60px;
+}
+h1{
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.caption {
+    text-align: center;
+    margin: 20px 0;
+}
+
+input[type=text],
+input[type=email],
+input[type=number],
+textarea {
+    width: 50%;
+    padding: 7px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+select{
+    width: 25%;
+    padding: 8px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    
+}
+
+textarea {
+    height: 60px;
+}
+
+input[type=checkbox] {
+    margin: 10px 5px 10px 0;
+}
+
+input[type=radio]{
+    margin-bottom: 10px;
+}
+
+input[type=submit] {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #59ace0;
+    border: 1px solid #59ace0;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 20px;
+    transition: all .2s;
+}
+input[type=submit]:hover{
+    background-color: #236690;
+    border: 1px solid transparent ;
+    border-radius: 3px;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+
+
+
+
